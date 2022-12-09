@@ -1,0 +1,26 @@
+{
+  "name": "sortify",
+  "version": "1.0.0",
+  "description": "Small app for sorting arrays",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidIacovone/sortify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidIacovone/sortify/issues"
+  },
+  "homepage": "https://github.com/DavidIacovone/sortify#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}

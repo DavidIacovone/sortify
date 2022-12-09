@@ -1,0 +1,4 @@
+# local resources
+node_modules
+build
+package-lock.json
